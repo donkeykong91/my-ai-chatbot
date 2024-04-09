@@ -1,0 +1,39 @@
+{
+  "name": "ai-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "serve": "node ./dist/bundle.js",
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daryl Occ",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5",
+    "rollup": "^4.13.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.0.44",
+    "@langchain/openai": "^0.0.26",
+    "@langchain/weaviate": "^0.0.1",
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.1.30",
+    "mammoth": "^1.7.1",
+    "office-text-extractor": "^3.0.2"
+  }
+}

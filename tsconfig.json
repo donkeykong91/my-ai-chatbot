@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["ES2020"],
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "nodenext",
+    "allowSyntheticDefaultImports": true,
+    "rootDir": "src",
+    "outDir": "dist",
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules"
+  ]
+}
