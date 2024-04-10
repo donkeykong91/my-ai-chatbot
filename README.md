@@ -20,6 +20,8 @@ Currently, the AI Chatbot only runs in the terminal.
 
 The plan is to have the AI Chatbot run in **my-website** inside a chat bubble at the bottom right of the screen.
 
-To run the AI Chatbot locally on your machine, you would need to have an API key from OpenAI and run it with the following: 
-(Windows Powershell): npm run build
-(Windows Powershell): $env:OPENAI_API_KEY = "<YOUR_API_KEY>"; node ./dist/bundle.js
+To run the AI Chatbot locally on your machine, you would need to have an API key from OpenAI and run it with the following in Windows Powershell:  
+```powershell
+npm run build
+$env:OPENAI_API_KEY = "<YOUR_API_KEY>"; node ./dist/bundle.js
+```
